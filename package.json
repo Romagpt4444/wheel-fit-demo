@@ -1,0 +1,24 @@
+{
+  "name": "wheel-fit-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "assets": "node scripts/gen-wheels.mjs && node scripts/gen-cars.mjs",
+    "test:e2e": "playwright test",
+    "size": "node scripts/size.mjs",
+    "test:worker": "node --test worker/test/worker.test.mjs",
+    "test": "npm run test:worker && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@fontsource-variable/golos-text": "^5.3.0",
+    "@fontsource/tenor-sans": "^5.3.0",
+    "@playwright/test": "^1.64.1",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

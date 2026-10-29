@@ -1,0 +1,32 @@
+{
+  "home-mobile": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "LCP": "2.1 s",
+    "TBT": "20 ms",
+    "CLS": "0",
+    "url": "http://localhost:4173/wheel-fit-demo/"
+  },
+  "home-desktop": {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "LCP": "0.4 s",
+    "TBT": "0 ms",
+    "CLS": "0",
+    "url": "http://localhost:4173/wheel-fit-demo/"
+  },
+  "fit-mobile": {
+    "performance": 97,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "LCP": "2.6 s",
+    "TBT": "0 ms",
+    "CLS": "0",
+    "url": "http://localhost:4173/wheel-fit-demo/#/fit?car=coupe-red&wheel=apex-mesh-r&d=19"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Колёса Лаб",
+  "logo": "assets/brand/kolesa-mark.svg",
+  "city": "Казань",
+  "colors": {
+    "bg": "#EEF0F2",
+    "surface": "#FFFFFF",
+    "surface2": "#F5F6F8",
+    "line": "#D5D9DE",
+    "text": "#15171A",
+    "textMuted": "#5B636E",
+    "accent": "#1E56C8",
+    "accentInk": "#FFFFFF",
+    "stage": "#101114",
+    "caliper": "#A3262A"
+  },
+  "fonts": {
+    "display": "'Golos Text Variable', system-ui, sans-serif",
+    "body": "'Golos Text Variable', system-ui, sans-serif",
+    "css": ""
+  },
+  "contacts": {
+    "phone": "+7 (843) 000-00-00",
+    "telegram": "",
+    "whatsapp": "",
+    "address": "Казань, пр. Примерный, 10"
+  },
+  "leads": { "workerUrl": "", "channel": "whatsapp" },
+  "texts": {
+    "homeTitle": "Подберите диски по фото",
+    "homeLead": "Загрузите фото машины сбоку или выберите похожую из галереи. Покажем 12 моделей в нужном диаметре и цену комплекта.",
+    "thanksTitle": "Спасибо, заявка отправлена",
+    "thanksText": "Ответим в WhatsApp в течение часа и пришлём расчёт с шиномонтажом.",
+    "watermark": "Колёса Лаб, примерка"
+  },
+  "policyUrl": "privacy.html"
+}

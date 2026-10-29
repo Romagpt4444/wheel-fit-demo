@@ -1,0 +1,11 @@
+name = "wheel-fit-leads"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# where the try-on is hosted; requests from other origins are rejected
+ALLOWED_ORIGINS = "https://romagpt4444.github.io"
+
+# Secrets (not in git):
+#   npx wrangler secret put TG_BOT_TOKEN
+#   npx wrangler secret put TG_CHAT_ID

@@ -1,0 +1,485 @@
+{
+  "rimToTireRatio": {
+    "16": 0.58,
+    "17": 0.62,
+    "18": 0.66,
+    "19": 0.69,
+    "20": 0.72,
+    "21": 0.75,
+    "22": 0.78
+  },
+  "styles": {
+    "spoke": "Спицы",
+    "split": "Двойные спицы",
+    "multi": "Многоспицевые",
+    "mesh": "Сетка",
+    "mono": "Монолит",
+    "turbine": "Турбина",
+    "aero": "Аэро",
+    "dish": "Глубокая полка"
+  },
+  "colors": {
+    "silver": {
+      "label": "Серебро",
+      "swatch": "#C9CCD1"
+    },
+    "graphite": {
+      "label": "Графит",
+      "swatch": "#5E636A"
+    },
+    "black": {
+      "label": "Чёрный",
+      "swatch": "#1B1C1F"
+    },
+    "bronze": {
+      "label": "Бронза",
+      "swatch": "#B08D5C"
+    },
+    "polished": {
+      "label": "Полировка",
+      "swatch": "#ECEEF0"
+    }
+  },
+  "wheels": [
+    {
+      "id": "apex-s5",
+      "name": "APEX S5",
+      "style": "spoke",
+      "color": "silver",
+      "material": "Литой",
+      "pcd": [
+        "5x112",
+        "5x114.3"
+      ],
+      "diameters": {
+        "16": {
+          "width": 7,
+          "et": 40,
+          "price": 45000,
+          "stock": 16
+        },
+        "17": {
+          "width": 7.5,
+          "et": 40,
+          "price": 48000,
+          "stock": 12
+        },
+        "18": {
+          "width": 8,
+          "et": 38,
+          "price": 54000,
+          "stock": 8
+        },
+        "19": {
+          "width": 8.5,
+          "et": 38,
+          "price": 61000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-s5.webp",
+      "thumb": "assets/wheels/apex-s5-thumb",
+      "rank": 1
+    },
+    {
+      "id": "apex-mesh-r",
+      "name": "APEX Mesh R",
+      "style": "mesh",
+      "color": "bronze",
+      "material": "Кованый",
+      "pcd": [
+        "5x112",
+        "5x120"
+      ],
+      "diameters": {
+        "18": {
+          "width": 8.5,
+          "et": 35,
+          "price": 98000,
+          "stock": 4
+        },
+        "19": {
+          "width": 9,
+          "et": 35,
+          "price": 112000,
+          "stock": 4
+        },
+        "20": {
+          "width": 9.5,
+          "et": 33,
+          "price": 128000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-mesh-r.webp",
+      "thumb": "assets/wheels/apex-mesh-r-thumb",
+      "rank": 2
+    },
+    {
+      "id": "apex-mono",
+      "name": "APEX Mono",
+      "style": "mono",
+      "color": "graphite",
+      "material": "Литой, flow forming",
+      "pcd": [
+        "5x108",
+        "5x112"
+      ],
+      "diameters": {
+        "18": {
+          "width": 8,
+          "et": 42,
+          "price": 64000,
+          "stock": 12
+        },
+        "19": {
+          "width": 8.5,
+          "et": 40,
+          "price": 72000,
+          "stock": 8
+        },
+        "20": {
+          "width": 9,
+          "et": 40,
+          "price": 84000,
+          "stock": 4
+        }
+      },
+      "image": "assets/wheels/apex-mono.webp",
+      "thumb": "assets/wheels/apex-mono-thumb",
+      "rank": 3
+    },
+    {
+      "id": "apex-turbine-t12",
+      "name": "APEX Turbine T12",
+      "style": "turbine",
+      "color": "polished",
+      "material": "Кованый",
+      "pcd": [
+        "5x112",
+        "5x130"
+      ],
+      "diameters": {
+        "19": {
+          "width": 9,
+          "et": 40,
+          "price": 88000,
+          "stock": 4
+        },
+        "20": {
+          "width": 9.5,
+          "et": 40,
+          "price": 99000,
+          "stock": 4
+        },
+        "21": {
+          "width": 10,
+          "et": 38,
+          "price": 118000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-turbine-t12.webp",
+      "thumb": "assets/wheels/apex-turbine-t12-thumb",
+      "rank": 4
+    },
+    {
+      "id": "apex-y10",
+      "name": "APEX Y10",
+      "style": "spoke",
+      "color": "black",
+      "material": "Литой",
+      "pcd": [
+        "5x112",
+        "5x114.3",
+        "5x120"
+      ],
+      "diameters": {
+        "18": {
+          "width": 8,
+          "et": 40,
+          "price": 58000,
+          "stock": 20
+        },
+        "19": {
+          "width": 8.5,
+          "et": 40,
+          "price": 66000,
+          "stock": 12
+        },
+        "20": {
+          "width": 9,
+          "et": 38,
+          "price": 76000,
+          "stock": 8
+        },
+        "21": {
+          "width": 9.5,
+          "et": 38,
+          "price": 88000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-y10.webp",
+      "thumb": "assets/wheels/apex-y10-thumb",
+      "rank": 5
+    },
+    {
+      "id": "apex-split-7",
+      "name": "APEX Split 7",
+      "style": "split",
+      "color": "graphite",
+      "material": "Литой, flow forming",
+      "pcd": [
+        "5x112",
+        "5x114.3"
+      ],
+      "diameters": {
+        "19": {
+          "width": 8.5,
+          "et": 35,
+          "price": 74000,
+          "stock": 8
+        },
+        "20": {
+          "width": 9,
+          "et": 35,
+          "price": 86000,
+          "stock": 8
+        },
+        "21": {
+          "width": 9.5,
+          "et": 33,
+          "price": 97000,
+          "stock": 4
+        },
+        "22": {
+          "width": 10,
+          "et": 33,
+          "price": 112000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-split-7.webp",
+      "thumb": "assets/wheels/apex-split-7-thumb",
+      "rank": 6
+    },
+    {
+      "id": "apex-aero",
+      "name": "APEX Aero",
+      "style": "aero",
+      "color": "silver",
+      "material": "Литой",
+      "pcd": [
+        "5x108",
+        "5x114.3"
+      ],
+      "diameters": {
+        "16": {
+          "width": 6.5,
+          "et": 45,
+          "price": 46000,
+          "stock": 24
+        },
+        "17": {
+          "width": 7,
+          "et": 45,
+          "price": 49000,
+          "stock": 16
+        },
+        "18": {
+          "width": 7.5,
+          "et": 42,
+          "price": 55000,
+          "stock": 8
+        },
+        "19": {
+          "width": 8,
+          "et": 42,
+          "price": 63000,
+          "stock": 4
+        }
+      },
+      "image": "assets/wheels/apex-aero.webp",
+      "thumb": "assets/wheels/apex-aero-thumb",
+      "rank": 7
+    },
+    {
+      "id": "apex-multi-15",
+      "name": "APEX Multi 15",
+      "style": "multi",
+      "color": "silver",
+      "material": "Литой, flow forming",
+      "pcd": [
+        "5x112",
+        "5x120"
+      ],
+      "diameters": {
+        "19": {
+          "width": 8.5,
+          "et": 40,
+          "price": 82000,
+          "stock": 8
+        },
+        "20": {
+          "width": 9,
+          "et": 38,
+          "price": 94000,
+          "stock": 4
+        },
+        "21": {
+          "width": 9.5,
+          "et": 38,
+          "price": 108000,
+          "stock": 0
+        },
+        "22": {
+          "width": 10,
+          "et": 35,
+          "price": 124000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-multi-15.webp",
+      "thumb": "assets/wheels/apex-multi-15-thumb",
+      "rank": 8
+    },
+    {
+      "id": "apex-vector-d",
+      "name": "APEX Vector D",
+      "style": "spoke",
+      "color": "black",
+      "material": "Кованый",
+      "pcd": [
+        "5x112",
+        "5x120",
+        "5x130"
+      ],
+      "diameters": {
+        "20": {
+          "width": 9.5,
+          "et": 30,
+          "price": 136000,
+          "stock": 4
+        },
+        "21": {
+          "width": 10,
+          "et": 30,
+          "price": 152000,
+          "stock": 4
+        },
+        "22": {
+          "width": 10.5,
+          "et": 28,
+          "price": 168000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-vector-d.webp",
+      "thumb": "assets/wheels/apex-vector-d-thumb",
+      "rank": 9
+    },
+    {
+      "id": "apex-forged-f6",
+      "name": "APEX Forged F6",
+      "style": "spoke",
+      "color": "bronze",
+      "material": "Кованый",
+      "pcd": [
+        "6x139.7",
+        "5x150"
+      ],
+      "diameters": {
+        "20": {
+          "width": 9,
+          "et": 25,
+          "price": 178000,
+          "stock": 4
+        },
+        "21": {
+          "width": 9.5,
+          "et": 25,
+          "price": 196000,
+          "stock": 0
+        },
+        "22": {
+          "width": 10,
+          "et": 20,
+          "price": 220000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-forged-f6.webp",
+      "thumb": "assets/wheels/apex-forged-f6-thumb",
+      "rank": 10
+    },
+    {
+      "id": "apex-deep-dish",
+      "name": "APEX Deep Dish",
+      "style": "dish",
+      "color": "graphite",
+      "material": "Кованый, двухсоставный",
+      "pcd": [
+        "5x112",
+        "5x114.3"
+      ],
+      "diameters": {
+        "18": {
+          "width": 9,
+          "et": 30,
+          "price": 92000,
+          "stock": 4
+        },
+        "19": {
+          "width": 9.5,
+          "et": 28,
+          "price": 104000,
+          "stock": 4
+        },
+        "20": {
+          "width": 10,
+          "et": 25,
+          "price": 118000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-deep-dish.webp",
+      "thumb": "assets/wheels/apex-deep-dish-thumb",
+      "rank": 11
+    },
+    {
+      "id": "apex-mesh-black",
+      "name": "APEX Mesh Noir",
+      "style": "mesh",
+      "color": "black",
+      "material": "Кованый",
+      "pcd": [
+        "5x112",
+        "5x120"
+      ],
+      "diameters": {
+        "19": {
+          "width": 9,
+          "et": 35,
+          "price": 118000,
+          "stock": 4
+        },
+        "20": {
+          "width": 9.5,
+          "et": 33,
+          "price": 134000,
+          "stock": 4
+        },
+        "21": {
+          "width": 10,
+          "et": 30,
+          "price": 149000,
+          "stock": 0
+        }
+      },
+      "image": "assets/wheels/apex-mesh-black.webp",
+      "thumb": "assets/wheels/apex-mesh-black-thumb",
+      "rank": 12
+    }
+  ]
+}

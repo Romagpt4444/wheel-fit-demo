@@ -1,0 +1,14 @@
+node_modules
+dist
+test-results
+playwright-report
+.DS_Store
+worker/.wrangler
+*.local
+# local only: third-party reference video, copied skills, personal inventory
+reference/ref.mp4
+reference/frames/
+.claude/
+docs/SGX-INVENTORY.md
+docs/lighthouse/*.json
+!docs/lighthouse/summary.json

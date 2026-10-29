@@ -1,0 +1,165 @@
+{
+  "cars": [
+    {
+      "id": "sedan-pearl",
+      "name": "Бизнес-седан",
+      "paint": "белый перламутр",
+      "image": "assets/cars/sedan-pearl.webp",
+      "thumb": "assets/cars/sedan-pearl-thumb",
+      "width": 1600,
+      "height": 900,
+      "stockDiameter": 17,
+      "floorReflection": true,
+      "wheels": [
+        {
+          "x": 425,
+          "y": 596,
+          "r": 104
+        },
+        {
+          "x": 1215,
+          "y": 596,
+          "r": 104
+        }
+      ]
+    },
+    {
+      "id": "coupe-red",
+      "name": "Купе",
+      "paint": "красный металлик",
+      "image": "assets/cars/coupe-red.webp",
+      "thumb": "assets/cars/coupe-red-thumb",
+      "width": 1600,
+      "height": 900,
+      "stockDiameter": 17,
+      "floorReflection": true,
+      "wheels": [
+        {
+          "x": 450,
+          "y": 594,
+          "r": 106
+        },
+        {
+          "x": 1170,
+          "y": 594,
+          "r": 106
+        }
+      ]
+    },
+    {
+      "id": "crossover-silver",
+      "name": "Кроссовер",
+      "paint": "серебро",
+      "image": "assets/cars/crossover-silver.webp",
+      "thumb": "assets/cars/crossover-silver-thumb",
+      "width": 1600,
+      "height": 900,
+      "stockDiameter": 17,
+      "floorReflection": true,
+      "wheels": [
+        {
+          "x": 420,
+          "y": 582,
+          "r": 118
+        },
+        {
+          "x": 1200,
+          "y": 582,
+          "r": 118
+        }
+      ]
+    },
+    {
+      "id": "suv-navy",
+      "name": "Внедорожник",
+      "paint": "тёмно-синий",
+      "image": "assets/cars/suv-navy.webp",
+      "thumb": "assets/cars/suv-navy-thumb",
+      "width": 1600,
+      "height": 900,
+      "stockDiameter": 17,
+      "floorReflection": true,
+      "wheels": [
+        {
+          "x": 400,
+          "y": 574,
+          "r": 126
+        },
+        {
+          "x": 1210,
+          "y": 574,
+          "r": 126
+        }
+      ]
+    },
+    {
+      "id": "hatch-blue",
+      "name": "Хэтчбек",
+      "paint": "синий",
+      "image": "assets/cars/hatch-blue.webp",
+      "thumb": "assets/cars/hatch-blue-thumb",
+      "width": 1600,
+      "height": 900,
+      "stockDiameter": 17,
+      "floorReflection": true,
+      "wheels": [
+        {
+          "x": 440,
+          "y": 600,
+          "r": 100
+        },
+        {
+          "x": 1140,
+          "y": 600,
+          "r": 100
+        }
+      ]
+    },
+    {
+      "id": "wagon-graphite",
+      "name": "Универсал",
+      "paint": "графит",
+      "image": "assets/cars/wagon-graphite.webp",
+      "thumb": "assets/cars/wagon-graphite-thumb",
+      "width": 1600,
+      "height": 900,
+      "stockDiameter": 17,
+      "floorReflection": true,
+      "wheels": [
+        {
+          "x": 430,
+          "y": 596,
+          "r": 104
+        },
+        {
+          "x": 1220,
+          "y": 596,
+          "r": 104
+        }
+      ]
+    },
+    {
+      "id": "fastback-green",
+      "name": "Спорт-лифтбек",
+      "paint": "изумруд",
+      "image": "assets/cars/fastback-green.webp",
+      "thumb": "assets/cars/fastback-green-thumb",
+      "width": 1600,
+      "height": 900,
+      "stockDiameter": 17,
+      "floorReflection": true,
+      "wheels": [
+        {
+          "x": 417.5,
+          "y": 592,
+          "r": 108
+        },
+        {
+          "x": 1217.5,
+          "y": 592,
+          "r": 108
+        }
+      ]
+    }
+  ]
+}
